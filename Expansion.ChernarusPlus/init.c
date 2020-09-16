@@ -12,9 +12,15 @@
 
 #include "$CurrentDir:\\mpmissions\\Expansion.ChernarusPlus\\expansion\\ExpansionObjectSpawnTools.c"
 #include "$CurrentDir:\\mpmissions\\Expansion.ChernarusPlus\\expansion\\missions\\MissionConstructor.c"
+#include "$CurrentDir:\\mpmissions\\Expansion.ChernarusPlus\\BotMissions\\initBotMissions.c"
 
 void main()
 {
+	// Инициализация миссий с ботами ------------------------------
+	initBotMissions m_BotMissions = new initBotMissions();	
+	m_BotMissions.runBotMissions();
+	//-------------------------------------------------------------		
+	
 	bool loadTraderObjects = false;
 	bool loadTraderNPCs = false;
 
@@ -28,13 +34,26 @@ void main()
 	}
 
 	//INIT WEATHER BEFORE ECONOMY INIT------------------------
-	Weather weather = g_Game.GetWeather();
+    Weather weather = g_Game.GetWeather();
 
-	weather.MissionWeather(false);	// false = use weather controller from Weather.c
+    weather.MissionWeather(true);    // false = use weather controller from Weather.c
 
-	weather.GetOvercast().Set( Math.RandomFloatInclusive(0.02, 0.1), 1, 0);
-	weather.GetRain().Set( 0, 1, 0);
-	weather.GetFog().Set( 0, 1, 0);
+    Get_ab_PostApoWeather().GOOD_WEATHER_CHANCE = 75;
+    Get_ab_PostApoWeather().STORM_WEATHER_CHANCE = 50;
+    Get_ab_PostApoWeather().ANOMALY_STORM_WEATHER_CHANCE = 50;
+    Get_ab_PostApoWeather().ANOMALY_STORM_WEATHER_TIMEOUT = 30 * 60;
+    Get_ab_PostApoWeather().CLEAR_WEATHER_DURATION_MIN = 15 * 60;
+    Get_ab_PostApoWeather().CLEAR_WEATHER_DURATION_MAX = 30 * 60;
+    Get_ab_PostApoWeather().GOOD_WEATHER_DURATION_MIN = 20 * 60;
+    Get_ab_PostApoWeather().GOOD_WEATHER_DURATION_MAX = 30 * 60;
+    Get_ab_PostApoWeather().BAD_WEATHER_DURATION_MIN = 20 * 60;
+    Get_ab_PostApoWeather().BAD_WEATHER_DURATION_MAX = 30 * 60;
+    Get_ab_PostApoWeather().STORM_WEATHER_DURATION_MIN = 5 * 60;
+    Get_ab_PostApoWeather().STORM_WEATHER_DURATION_MAX = 15 * 60;
+    Get_ab_PostApoWeather().ANOMALY_STORM_WEATHER_DURATION_MIN = 8 * 60;
+    Get_ab_PostApoWeather().ANOMALY_STORM_WEATHER_DURATION_MAX = 15 * 60;
+
+    Get_ab_PostApoWeather().Start();
 
 	//INIT ECONOMY--------------------------------------
 	Hive ce = CreateHive();
