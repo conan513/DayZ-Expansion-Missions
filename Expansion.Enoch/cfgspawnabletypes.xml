@@ -3571,4 +3571,1909 @@
 		</attachments>
 	</type>
 -->
+
+<!-- ArmA 2 DLC WEAPON PACK START -->
+	<type name="A2DLC_CZ805A2">
+		<attachments chance="0.20">
+			<item name="A2DLC_CZ805A2_SnprBttstck" chance="0.20" />
+			<item name="A2DLC_CZ805A2_LghtBttstck" chance="0.20" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2DLC_CZ805A2_StndBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.00"> <!-- DISABLED DUE THE GAME BUG -->
+			<item name="Mag_STANAG_30Rnd" chance="0.30" />
+			<item name="Mag_CMAG_30Rnd" chance="0.30" />			
+		</attachments>
+	</type>
+	<type name="A2DLC_CZ805B">
+		<attachments chance="0.20">
+			<item name="A2DLC_CZ805A2_SnprBttstck" chance="0.20" />
+			<item name="A2DLC_CZ805A2_LghtBttstck" chance="0.20" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="A2DLC_CZ805A2_StndBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.00"> <!-- DISABLED DUE THE GAME BUG -->
+			<item name="Mag_A2DLC_CZ805B_20rnd" chance="0.20" />	
+		</attachments>
+	</type>	
+	<type name="A2DLC_SA58P">
+		<attachments chance="1.00">
+			<item name="A2DLC_SA58_WoodBttstck" chance="1.00" />		
+		</attachments>
+		<attachments chance="0.00"> <!-- DISABLED DUE THE GAME BUG -->
+			<item name="Mag_A2DLC_SA58_30rnd" chance="0.20" />	
+		</attachments>
+	</type>		
+	<type name="A2DLC_SA58SF">
+		<attachments chance="1.00">
+			<item name="A2DLC_SA58_LghtBttstck" chance="1.00" />		
+		</attachments>
+		<attachments chance="0.20">
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="KobraOptic" chance="0.20" />			
+			<item name="ACOGOptic" chance="0.20" />
+			<item name="PSO1Optic" chance="0.20" />			
+		</attachments>		
+		<attachments chance="0.00"> <!-- DISABLED DUE THE GAME BUG -->
+			<item name="Mag_A2DLC_SA58_30rnd" chance="0.20" />	
+		</attachments>
+		<attachments chance="0.20">
+			<item name="UniversalLight" chance="1.00" />
+		</attachments>		
+	</type>		
+	<type name="A2DLC_COMPACT">
+		<attachments chance="0.00"> <!-- DISABLED DUE THE GAME BUG -->
+			<item name="Mag_CZ75_15Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+	</type>		
+	<type name="A2DLC_CZ750">
+		<attachments chance="0.00"> <!-- DISABLED DUE THE GAME BUG -->
+			<item name="Mag_A2DLC_CZ750_10rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>			
+	<type name="A2DLC_EVO">
+		<attachments chance="0.00"> <!-- DISABLED DUE THE GAME BUG -->
+			<item name="Mag_A2DLC_EVO_30rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>		
+	</type>		
+	<type name="A2DLC_UK59">
+		<attachments chance="0.00"> <!-- DISABLED DUE THE GAME BUG -->
+			<item name="Mag_A2DLC_UK59_50rnd" chance="1.00" />
+		</attachments>	
+	</type>				
+<!-- ArmA 2 DLC WEAPON PACK END -->	
+	<!--MoreFood Start-->
+<type name="DONFOOD_FoodBag_Blue">
+        <tag name="shelves" />
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_BioSpring" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_FantaPeach" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniCranberryPomegranate" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniOrangeMango" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniPearApple" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitCherry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitCranberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitForestberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitOrange" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitPeach" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitPomegranate" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitWatermelon" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarCarrot" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarCherry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarRaspberryApple" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_PomegranateJuice" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_SpriteSugarFree" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_YesTeaLemon" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_YesTeaWildberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_WostokPineLemonade" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MelloYello" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_STEAMBEEF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CHCORBEEF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BAKEDMEATBALL" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_RUSBFBF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_RICEPUDDING" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_POPCORNSALT" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_FRIEDCHICKEN" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSPAGHETTICHEESE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZBBQBEANS" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZBOLDSPICYBEANS" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSCHICKENNOODLESOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSCONDENSEDTOMATOSOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSPEPPERPOT" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSVEGETABLESOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSPAGHETTIMEATBALLSPRM" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSAILSPAGHETTIOZ" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_beefstew" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_borschcabbage" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BuckwheatPorridgeBeef" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BuckwheatPorridgeBeef2" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_PorkStew" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_MARMALADE_PLUM" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_MARMALADE_ORANGE" />
+        </cargo>
+        <cargo chance="1">
+            <item name="DONFOOD_SANDWICH_HAMCHEESE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_BONAQUA" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_FANTAWINTER" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_MIRINDA" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_PEPSIR" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMCRISPY" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMMILKCHOCOLATE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMPEANUTBUTTER" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMWILDCHERRY" />
+        </cargo>
+    </type>
+<type name="DONFOOD_FoodBag_Green">
+        <tag name="shelves" />
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_BioSpring" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_FantaPeach" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniCranberryPomegranate" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniOrangeMango" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniPearApple" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitCherry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitCranberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitForestberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitOrange" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitPeach" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitPomegranate" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitWatermelon" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarCarrot" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarCherry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarRaspberryApple" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_PomegranateJuice" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_SpriteSugarFree" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_YesTeaLemon" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_YesTeaWildberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_WostokPineLemonade" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MelloYello" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_STEAMBEEF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CHCORBEEF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BAKEDMEATBALL" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_RUSBFBF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_RICEPUDDING" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_POPCORNSALT" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_FRIEDCHICKEN" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSPAGHETTICHEESE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZBBQBEANS" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZBOLDSPICYBEANS" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSCHICKENNOODLESOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSCONDENSEDTOMATOSOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSPEPPERPOT" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSVEGETABLESOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSPAGHETTIMEATBALLSPRM" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSAILSPAGHETTIOZ" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_beefstew" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_borschcabbage" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BuckwheatPorridgeBeef" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BuckwheatPorridgeBeef2" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_PorkStew" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_MARMALADE_PLUM" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_MARMALADE_ORANGE" />
+        </cargo>
+        <cargo chance="1">
+            <item name="DONFOOD_SANDWICH_HAMCHEESE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_BONAQUA" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_FANTAWINTER" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_MIRINDA" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_PEPSIR" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMCRISPY" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMMILKCHOCOLATE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMPEANUTBUTTER" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMWILDCHERRY" />
+        </cargo>
+    </type>
+<type name="DONFOOD_FoodBag_Orange">
+        <tag name="shelves" />
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_BioSpring" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_FantaPeach" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniCranberryPomegranate" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniOrangeMango" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniPearApple" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitCherry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitCranberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitForestberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitOrange" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitPeach" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitPomegranate" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitWatermelon" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarCarrot" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarCherry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarRaspberryApple" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_PomegranateJuice" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_SpriteSugarFree" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_YesTeaLemon" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_YesTeaWildberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_WostokPineLemonade" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MelloYello" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_STEAMBEEF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CHCORBEEF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BAKEDMEATBALL" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_RUSBFBF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_RICEPUDDING" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_POPCORNSALT" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_FRIEDCHICKEN" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSPAGHETTICHEESE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZBBQBEANS" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZBOLDSPICYBEANS" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSCHICKENNOODLESOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSCONDENSEDTOMATOSOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSPEPPERPOT" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSVEGETABLESOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSPAGHETTIMEATBALLSPRM" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSAILSPAGHETTIOZ" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_beefstew" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_borschcabbage" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BuckwheatPorridgeBeef" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BuckwheatPorridgeBeef2" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_PorkStew" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_MARMALADE_PLUM" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_MARMALADE_ORANGE" />
+        </cargo>
+        <cargo chance="1">
+            <item name="DONFOOD_SANDWICH_HAMCHEESE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_BONAQUA" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_FANTAWINTER" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_MIRINDA" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_PEPSIR" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMCRISPY" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMMILKCHOCOLATE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMPEANUTBUTTER" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMWILDCHERRY" />
+        </cargo>
+    </type>
+<type name="DONFOOD_FoodBag_Pink">
+        <tag name="shelves" />
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_BioSpring" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_FantaPeach" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniCranberryPomegranate" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniOrangeMango" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniPearApple" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitCherry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitCranberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitForestberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitOrange" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitPeach" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitPomegranate" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitWatermelon" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarCarrot" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarCherry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarRaspberryApple" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_PomegranateJuice" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_SpriteSugarFree" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_YesTeaLemon" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_YesTeaWildberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_WostokPineLemonade" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MelloYello" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_STEAMBEEF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CHCORBEEF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BAKEDMEATBALL" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_RUSBFBF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_RICEPUDDING" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_POPCORNSALT" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_FRIEDCHICKEN" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSPAGHETTICHEESE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZBBQBEANS" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZBOLDSPICYBEANS" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSCHICKENNOODLESOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSCONDENSEDTOMATOSOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSPEPPERPOT" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSVEGETABLESOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSPAGHETTIMEATBALLSPRM" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSAILSPAGHETTIOZ" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_beefstew" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_borschcabbage" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BuckwheatPorridgeBeef" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BuckwheatPorridgeBeef2" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_PorkStew" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_MARMALADE_PLUM" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_MARMALADE_ORANGE" />
+        </cargo>
+        <cargo chance="1">
+            <item name="DONFOOD_SANDWICH_HAMCHEESE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_BONAQUA" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_FANTAWINTER" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_MIRINDA" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_PEPSIR" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMCRISPY" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMMILKCHOCOLATE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMPEANUTBUTTER" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMWILDCHERRY" />
+        </cargo>
+    </type>
+<type name="DONFOOD_FoodBag_Red">
+        <tag name="shelves" />
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_BioSpring" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_FantaPeach" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniCranberryPomegranate" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniOrangeMango" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniPearApple" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitCherry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitCranberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitForestberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitOrange" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitPeach" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitPomegranate" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitWatermelon" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarCarrot" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarCherry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarRaspberryApple" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_PomegranateJuice" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_SpriteSugarFree" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_YesTeaLemon" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_YesTeaWildberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_WostokPineLemonade" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MelloYello" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_STEAMBEEF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CHCORBEEF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BAKEDMEATBALL" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_RUSBFBF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_RICEPUDDING" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_POPCORNSALT" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_FRIEDCHICKEN" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSPAGHETTICHEESE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZBBQBEANS" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZBOLDSPICYBEANS" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSCHICKENNOODLESOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSCONDENSEDTOMATOSOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSPEPPERPOT" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSVEGETABLESOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSPAGHETTIMEATBALLSPRM" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSAILSPAGHETTIOZ" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_beefstew" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_borschcabbage" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BuckwheatPorridgeBeef" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BuckwheatPorridgeBeef2" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_PorkStew" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_MARMALADE_PLUM" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_MARMALADE_ORANGE" />
+        </cargo>
+        <cargo chance="1">
+            <item name="DONFOOD_SANDWICH_HAMCHEESE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_BONAQUA" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_FANTAWINTER" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_MIRINDA" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_PEPSIR" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMCRISPY" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMMILKCHOCOLATE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMPEANUTBUTTER" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMWILDCHERRY" />
+        </cargo>
+    </type>
+<type name="DONFOOD_FoodBag_Yellow">
+        <tag name="shelves" />
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_BioSpring" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_FantaPeach" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniCranberryPomegranate" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniOrangeMango" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniPearApple" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitCherry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitCranberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitForestberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitOrange" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitPeach" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitPomegranate" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitWatermelon" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarCarrot" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarCherry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarRaspberryApple" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_PomegranateJuice" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_SpriteSugarFree" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_YesTeaLemon" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_YesTeaWildberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_WostokPineLemonade" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MelloYello" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_STEAMBEEF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CHCORBEEF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BAKEDMEATBALL" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_RUSBFBF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_RICEPUDDING" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_POPCORNSALT" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_FRIEDCHICKEN" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSPAGHETTICHEESE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZBBQBEANS" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZBOLDSPICYBEANS" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSCHICKENNOODLESOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSCONDENSEDTOMATOSOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSPEPPERPOT" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSVEGETABLESOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSPAGHETTIMEATBALLSPRM" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSAILSPAGHETTIOZ" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_beefstew" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_borschcabbage" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BuckwheatPorridgeBeef" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BuckwheatPorridgeBeef2" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_PorkStew" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_MARMALADE_PLUM" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_MARMALADE_ORANGE" />
+        </cargo>
+        <cargo chance="1">
+            <item name="DONFOOD_SANDWICH_HAMCHEESE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_BONAQUA" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_FANTAWINTER" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_MIRINDA" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_PEPSIR" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMCRISPY" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMMILKCHOCOLATE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMPEANUTBUTTER" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMWILDCHERRY" />
+        </cargo>
+    </type>
+	<!--MoreFood End-->
+		<!--MoreFood_august2020update Start-->
+	<type name="LUNCHBOX_DON_BEE">
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_BioSpring" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_FantaPeach" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniCranberryPomegranate" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniOrangeMango" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniPearApple" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitCherry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitCranberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitForestberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitOrange" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitPeach" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitPomegranate" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitWatermelon" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarCarrot" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarCherry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarRaspberryApple" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_PomegranateJuice" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_SpriteSugarFree" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_YesTeaLemon" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_YesTeaWildberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_WostokPineLemonade" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MelloYello" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_STEAMBEEF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CHCORBEEF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BAKEDMEATBALL" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_RUSBFBF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_RICEPUDDING" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_POPCORNSALT" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_FRIEDCHICKEN" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSPAGHETTICHEESE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZBBQBEANS" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZBOLDSPICYBEANS" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSCHICKENNOODLESOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSCONDENSEDTOMATOSOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSPEPPERPOT" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSVEGETABLESOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSPAGHETTIMEATBALLSPRM" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSAILSPAGHETTIOZ" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_beefstew" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_borschcabbage" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BuckwheatPorridgeBeef" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BuckwheatPorridgeBeef2" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_PorkStew" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_MARMALADE_PLUM" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_MARMALADE_ORANGE" />
+        </cargo>
+        <cargo chance="1">
+            <item name="DONFOOD_SANDWICH_HAMCHEESE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_BONAQUA" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_FANTAWINTER" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_MIRINDA" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_PEPSIR" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMCRISPY" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMMILKCHOCOLATE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMPEANUTBUTTER" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMWILDCHERRY" />
+        </cargo>
+    </type>
+	<type name="LUNCHBOX_DON_BLUE">
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_BioSpring" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_FantaPeach" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniCranberryPomegranate" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniOrangeMango" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_GladioMiniPearApple" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitCherry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitCranberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitForestberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitOrange" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitPeach" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitPomegranate" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MasterfruitWatermelon" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarCarrot" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarCherry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_NectarRaspberryApple" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_PomegranateJuice" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_SpriteSugarFree" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_YesTeaLemon" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_YesTeaWildberry" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_WostokPineLemonade" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_SodaCan_MelloYello" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_STEAMBEEF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CHCORBEEF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BAKEDMEATBALL" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_RUSBFBF" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_RICEPUDDING" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_POPCORNSALT" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_FRIEDCHICKEN" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSPAGHETTICHEESE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZBBQBEANS" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZBOLDSPICYBEANS" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSCHICKENNOODLESOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSCONDENSEDTOMATOSOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSPEPPERPOT" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_CAMPBELLSVEGETABLESOUP" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSPAGHETTIMEATBALLSPRM" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_DEEZSAILSPAGHETTIOZ" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_beefstew" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_borschcabbage" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BuckwheatPorridgeBeef" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_BuckwheatPorridgeBeef2" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_CAN_PorkStew" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_MARMALADE_PLUM" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_MARMALADE_ORANGE" />
+        </cargo>
+        <cargo chance="1">
+            <item name="DONFOOD_SANDWICH_HAMCHEESE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_BONAQUA" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_FANTAWINTER" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_MIRINDA" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONDRINK_BOTTLE_PEPSIR" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMCRISPY" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMMILKCHOCOLATE" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMPEANUTBUTTER" />
+        </cargo>
+        <cargo chance="0.1">
+            <item name="DONFOOD_BAG_MANDMWILDCHERRY" />
+        </cargo>
+    </type>
+	<type name="FOODBACKPACK_DON_ZLUTA">
+        <cargo chance="0.2">
+            <item name="SodaCan_Cola" />
+        </cargo>
+        <cargo chance="0.2">
+            <item name="SodaCan_Pipsi" />
+        </cargo>
+        <cargo chance="0.2">
+            <item name="SodaCan_Spite" />
+        </cargo>
+        <cargo chance="0.2">
+            <item name="SodaCan_Kvass" />
+        </cargo>
+    </type>
+	<type name="FOODBACKPACK_DON_NOTACOLA">
+        <cargo chance="0.5">
+            <item name="SodaCan_Cola" />
+        </cargo>
+    </type>
+	<type name="FOODBACKPACK_DON_PIPSI">
+        <cargo chance="0.5">
+            <item name="SodaCan_Pipsi" />
+        </cargo>
+    </type>
+	<type name="FOODBACKPACK_DON_SPITE">
+        <cargo chance="0.5">
+            <item name="SodaCan_Spite" />
+        </cargo>
+    </type>
+	<type name="FOODBACKPACK_DON_KVASS">
+        <cargo chance="0.5">
+            <item name="SodaCan_Kvass" />
+        </cargo>
+    </type>
+	<!--MoreFood_august2020update End-->
+		<!--START OF ZOMBIES  -->
+	<!-- -----------------------------ARMY----------------------------- -->
+	<type name="ZmbM_PatrolNormal_Autumn">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_PatrolNormal_Flat">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_PatrolNormal_PautRev">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_PatrolNormal_Summer">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_SoldierNormal">
+		<cargo preset="PvZempty" />
+	</type>
+	<!-- -----------------------------City----------------------------- -->
+	<type name="ZmbF_Clerk_Normal_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_Clerk_Normal_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_Clerk_Normal_Red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_Clerk_Normal_White">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_CitizenANormal_Beige">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_CitizenANormal_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_CitizenANormal_Brown">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_CitizenBSkinny">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_JournalistNormal_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_JournalistNormal_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_JournalistNormal_Red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_JournalistNormal_White">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_ShortSkirt_beige">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_ShortSkirt_black">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_ShortSkirt_brown">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_ShortSkirt_checks">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_ShortSkirt_green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_ShortSkirt_grey">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_ShortSkirt_red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_ShortSkirt_stripes">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_ShortSkirt_white">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_ShortSkirt_yellow">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_SkaterYoung_Brown">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_SkaterYoung_Striped">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_SkaterYoung_Violet">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_SurvivorNormal_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_SurvivorNormal_Orange">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_SurvivorNormal_Red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_SurvivorNormal_White">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_CitizenASkinny_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_CitizenASkinny_Brown">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_CitizenASkinny_Grey">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_CitizenASkinny_Red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_CitizenBFat_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_CitizenBFat_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_CitizenBFat_Red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_ClerkFat_Brown">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_ClerkFat_Grey">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_ClerkFat_Khaki">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_ClerkFat_White">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_CommercialPilotOld_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_CommercialPilotOld_Brown">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_CommercialPilotOld_Grey">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_CommercialPilotOld_Olive">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_Jacket_beige">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_Jacket_black">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_Jacket_blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_Jacket_bluechecks">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_Jacket_brown">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_Jacket_greenchecks">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_Jacket_grey">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_Jacket_khaki">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_Jacket_magenta">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_Jacket_stripes">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_JournalistSkinny">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_MotobikerFat_Beige">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_MotobikerFat_Black">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_MotobikerFat_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Brown">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Grey">
+		<cargo preset="PvZempty" />
+	</type>
+	<!-- -----------------------------Industrial----------------------------- -->
+	<type name="ZmbF_BlueCollarFat_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_BlueCollarFat_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_BlueCollarFat_Red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_BlueCollarFat_White">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_MechanicNormal_Beige">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_MechanicNormal_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_MechanicNormal_Grey">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_MechanicNormal_Orange">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_ConstrWorkerNormal_Beige">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_ConstrWorkerNormal_Black">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_ConstrWorkerNormal_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_ConstrWorkerNormal_Grey">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HandymanNormal_Beige">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HandymanNormal_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HandymanNormal_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HandymanNormal_Grey">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HandymanNormal_White">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HeavyIndustryWorker">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_MechanicSkinny_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_MechanicSkinny_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_MechanicSkinny_Grey">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_MechanicSkinny_Red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_OffshoreWorker_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_OffshoreWorker_Orange">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_OffshoreWorker_Red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_OffshoreWorker_Yellow">
+		<cargo preset="PvZempty" />
+	</type>
+	<!-- -----------------------------FireFighter----------------------------- -->
+	<type name="ZmbM_FirefighterNormal">
+		<cargo preset="PvZempty" />
+	</type>
+	<!-- -----------------------------Medic----------------------------- -->
+	<type name="ZmbF_DoctorSkinny">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_NurseFat">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_ParamedicNormal_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_ParamedicNormal_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_ParamedicNormal_Red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_PatientOld">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_DoctorFat">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_ParamedicNormal_Black">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_ParamedicNormal_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_ParamedicNormal_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_ParamedicNormal_Red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_PatientSkinny">
+		<cargo preset="PvZempty" />
+	</type>
+	<!-- -----------------------------Police----------------------------- -->
+	<type name="ZmbF_PoliceWomanNormal">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_PolicemanFat">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_PolicemanSpecForce">
+		<cargo preset="PvZempty" />
+	</type>
+	<!-- -----------------------------Prisoner----------------------------- -->
+	<type name="ZmbM_PrisonerSkinny">
+		<cargo preset="PvZempty" />
+	</type>
+	<!-- -----------------------------Religious----------------------------- -->
+	<type name="ZmbM_priestPopSkinny">
+		<cargo preset="PvZempty" />
+	</type>
+	<!-- -----------------------------Solitude----------------------------- -->
+	<type name="ZmbF_HikerSkinny_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_HikerSkinny_Grey">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_HikerSkinny_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_HikerSkinny_Red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_FishermanOld_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_FishermanOld_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_FishermanOld_Grey">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_FishermanOld_Red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HermitSkinny_Beige">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HermitSkinny_Black">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HermitSkinny_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HermitSkinny_Red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HikerSkinny_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HikerSkinny_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HikerSkinny_Yellow">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HunterOld_Autumn">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HunterOld_Spring">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HunterOld_Summer">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_HunterOld_Winter">
+		<cargo preset="PvZempty" />
+	</type>
+	<!-- -----------------------------Village----------------------------- -->
+	<type name="ZmbF_MilkMaidOld_Beige">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_MilkMaidOld_Black">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_MilkMaidOld_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_MilkMaidOld_Grey">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_VillagerOld_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_VillagerOld_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_VillagerOld_Red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_VillagerOld_White">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_JoggerSkinny_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_JoggerSkinny_Brown">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_JoggerSkinny_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbF_JoggerSkinny_Red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_FarmerFat_Beige">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_FarmerFat_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_FarmerFat_Brown">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_FarmerFat_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_JoggerSkinny_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_JoggerSkinny_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_JoggerSkinny_Red">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_VillagerOld_Blue">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_VillagerOld_Green">
+		<cargo preset="PvZempty" />
+	</type>
+	<type name="ZmbM_VillagerOld_White">
+		<cargo preset="PvZempty" />
+	</type>
+	<!--END OF ZOMBIES  -->
 </spawnabletypes>

@@ -429,4 +429,8 @@
 				<item name="PressVest_Blue" chance="0.25" />
 				<item name="PressVest_LightBlue" chance="0.25" />
 		</attachments>
+		
+        <cargo chance="0.0" name="PvZempty">
+            <item name="WoodenStick" chance="0.01" />
+        </cargo>
 </randompresets>
